@@ -4,12 +4,23 @@ import axios from 'axios';
 // import {  } from '../actions/';
 import './scss/main.scss';
 
-// type Props = {
+type Book = {
+  name?: string;
+  records: {
+    data: {
+      cover: {
+        small?: string;
+      };
+    };
+  };
+};
 
-// };
+type State = {
+  books: Book[];
+};
 
-class App extends Component {
-  state = {
+class App extends Component<{}, State> {
+  readonly state: State = {
     books: []
   };
 
@@ -31,12 +42,16 @@ class App extends Component {
     return body;
   };
 
-  render() {
-    console.log(this.props);
+  public render() {
+    const { books } = this.state;
     return (
       <div className="app">
         <header />
-        <main />
+        <main>
+          {books.map(book => (
+            <div>{book.records.data.cover.small}</div>
+          ))}
+        </main>
         <footer />
       </div>
     );
