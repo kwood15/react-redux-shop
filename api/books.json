@@ -1,0 +1,828 @@
+{
+  "Books": [
+    {
+      "records": {
+        "recordURL": "https://openlibrary.org/books/OL24870337M/Javascript",
+        "oclcs": ["54043794"],
+        "publishDates": ["2003"],
+        "lccns": ["2004049993"],
+        "details": null,
+        "isbns": ["0071435042", "9780071435048"],
+        "olids": ["OL24870337M"],
+        "issns": [],
+        "data": {
+          "publishers": [
+            {
+              "name": "Contemporary Books"
+            }
+          ],
+          "pagination": "ix, 179 p. :",
+          "number_of_pages": 179,
+          "classifications": {
+            "dewey_decimal_class": ["005.2762"],
+            "lc_classifications": ["QA76.73.J39 B74 2003"]
+          },
+          "title": "Javascript",
+          "url": "https://openlibrary.org/books/OL24870337M/Javascript",
+          "notes": "Includes index.",
+          "identifiers": {
+            "isbn_13": ["9780071435048"],
+            "lccn": ["2004049993"],
+            "openlibrary": ["OL24870337M"],
+            "isbn_10": ["0071435042"],
+            "oclc": ["54043794"]
+          },
+          "cover": {
+            "small": "https://covers.openlibrary.org/b/id/6862879-S.jpg",
+            "large": "https://covers.openlibrary.org/b/id/6862879-L.jpg",
+            "medium": "https://covers.openlibrary.org/b/id/6862879-M.jpg"
+          },
+          "subjects": [
+            {
+              "url": "https://openlibrary.org/subjects/in_library",
+              "name": "In library"
+            },
+            {
+              "url": "https://openlibrary.org/subjects/protected_daisy",
+              "name": "Protected DAISY"
+            },
+            {
+              "url": "https://openlibrary.org/subjects/javascript_(computer_program_language)",
+              "name": "JavaScript (Computer program language)"
+            }
+          ],
+          "publish_date": "2003",
+          "key": "/books/OL24870337M",
+          "authors": [
+            {
+              "url": "https://openlibrary.org/authors/OL459031A/Mac_Bride",
+              "name": "Mac Bride"
+            }
+          ],
+          "by_statement": "Mac Bride",
+          "publish_places": [
+            {
+              "name": "Chicago, Ill"
+            }
+          ],
+          "ebooks": [
+            {
+              "checkedout": true,
+              "availability": "borrow",
+              "preview_url": "https://archive.org/details/javascript00brid",
+              "borrow_url": "https://openlibrary.org/books/OL24870337M/Javascript/borrow",
+              "formats": {}
+            }
+          ]
+        }
+      },
+      "items": []
+    },
+    {
+      "records": {
+        "recordURL": "https://openlibrary.org/books/OL11503684M/Javascript",
+        "oclcs": ["41499346"],
+        "publishDates": ["March 1999"],
+        "lccns": [],
+        "details": null,
+        "isbns": ["0935739289", "9780935739282"],
+        "olids": ["OL11503684M"],
+        "issns": [],
+        "data": {
+          "publishers": [
+            {
+              "name": "ASP"
+            }
+          ],
+          "number_of_pages": 199,
+          "subtitle": "Quick Reference Guide",
+          "weight": "8.8 ounces",
+          "title": "Javascript",
+          "url": "https://openlibrary.org/books/OL11503684M/Javascript",
+          "identifiers": {
+            "openlibrary": ["OL11503684M"],
+            "isbn_13": ["9780935739282"],
+            "isbn_10": ["0935739289"],
+            "oclc": ["41499346"],
+            "goodreads": ["6731161"],
+            "librarything": ["4221334"]
+          },
+          "cover": {
+            "small": "https://covers.openlibrary.org/b/id/5141843-S.jpg",
+            "large": "https://covers.openlibrary.org/b/id/5141843-L.jpg",
+            "medium": "https://covers.openlibrary.org/b/id/5141843-M.jpg"
+          },
+          "subjects": [
+            {
+              "url": "https://openlibrary.org/subjects/in_library",
+              "name": "In library"
+            }
+          ],
+          "publish_date": "March 1999",
+          "key": "/books/OL11503684M",
+          "authors": [
+            {
+              "url": "https://openlibrary.org/authors/OL3649549A/Marc_Miyashiro",
+              "name": "Marc Miyashiro"
+            }
+          ],
+          "ebooks": [
+            {
+              "checkedout": false,
+              "availability": "borrow",
+              "preview_url": "https://archive.org/details/javascript00marc",
+              "borrow_url": "https://openlibrary.org/books/OL11503684M/Javascript/borrow",
+              "formats": {}
+            }
+          ]
+        }
+      },
+      "items": [
+        {
+          "status": "lendable",
+          "ol-work-id": "OL9654163W",
+          "ol-edition-id": "OL11503684M",
+          "cover": {
+            "small": "https://covers.openlibrary.org/b/id/5141843-S.jpg",
+            "large": "https://covers.openlibrary.org/b/id/5141843-L.jpg",
+            "medium": "https://covers.openlibrary.org/b/id/5141843-M.jpg"
+          },
+          "publishDate": "1999",
+          "itemURL": "http://openlibrary.org/books/OL11503684M/Javascript/borrow",
+          "enumcron": false,
+          "contributor": "",
+          "fromRecord": "/books/OL11503684M",
+          "match": "exact"
+        }
+      ]
+    },
+    {
+      "records": {
+        "recordURL": "https://openlibrary.org/books/OL3965869M/JavaScript",
+        "oclcs": ["46333766"],
+        "publishDates": ["2001"],
+        "lccns": ["2001270831"],
+        "details": null,
+        "isbns": ["0072131403"],
+        "olids": ["OL3965869M"],
+        "issns": [],
+        "data": {
+          "publishers": [
+            {
+              "name": "Osborne/McGraw-Hill"
+            }
+          ],
+          "pagination": "xx, 603 p. :",
+          "number_of_pages": 603,
+          "subtitle": "a beginner's guide",
+          "title": "JavaScript",
+          "url": "https://openlibrary.org/books/OL3965869M/JavaScript",
+          "notes": "Includes index.",
+          "identifiers": {
+            "lccn": ["2001270831"],
+            "openlibrary": ["OL3965869M"],
+            "isbn_10": ["0072131403"],
+            "oclc": ["46333766"],
+            "goodreads": ["1270990"],
+            "librarything": ["607694"]
+          },
+          "cover": {
+            "small": "https://covers.openlibrary.org/b/id/61446-S.jpg",
+            "large": "https://covers.openlibrary.org/b/id/61446-L.jpg",
+            "medium": "https://covers.openlibrary.org/b/id/61446-M.jpg"
+          },
+          "subjects": [
+            {
+              "url": "https://openlibrary.org/subjects/javascript_(computer_program_language)",
+              "name": "JavaScript (Computer program language)"
+            },
+            {
+              "url": "https://openlibrary.org/subjects/web_site_development",
+              "name": "Web site development"
+            },
+            {
+              "url": "https://openlibrary.org/subjects/handbooks,_manuals",
+              "name": "Handbooks, manuals"
+            }
+          ],
+          "publish_date": "2001",
+          "key": "/books/OL3965869M",
+          "authors": [
+            {
+              "url": "https://openlibrary.org/authors/OL1209423A/John_Pollock",
+              "name": "John Pollock"
+            }
+          ],
+          "classifications": {
+            "dewey_decimal_class": ["005.2/762"],
+            "lc_classifications": ["QA76.73.J39 P65 2001"]
+          },
+          "publish_places": [
+            {
+              "name": "Berkeley, Calif"
+            }
+          ],
+          "by_statement": "John Pollock.",
+          "ebooks": [
+            {
+              "checkedout": true,
+              "availability": "borrow",
+              "preview_url": "https://archive.org/details/javascriptbeginn00poll",
+              "borrow_url": "https://openlibrary.org/books/OL3965869M/JavaScript/borrow",
+              "formats": {}
+            }
+          ]
+        }
+      },
+      "items": []
+    },
+    {
+      "records": {
+        "recordURL": "https://openlibrary.org/books/OL619446M/JavaScript",
+        "oclcs": ["35367714"],
+        "publishDates": ["1996"],
+        "lccns": ["96217810"],
+        "details": null,
+        "isbns": ["1565921933"],
+        "olids": ["OL619446M"],
+        "issns": [],
+        "data": {
+          "publishers": [
+            {
+              "name": "O'Reilly & Associates"
+            }
+          ],
+          "pagination": "xv, 454 p. :",
+          "number_of_pages": 454,
+          "subtitle": "the definitive guide",
+          "links": [
+            {
+              "url": "http://shop.oreilly.com/product/9780596000486.do",
+              "title": "Publisher Site for 4th Edition with Errata"
+            }
+          ],
+          "title": "JavaScript",
+          "url": "https://openlibrary.org/books/OL619446M/JavaScript",
+          "notes": "Includes index.",
+          "identifiers": {
+            "lccn": ["96217810"],
+            "openlibrary": ["OL619446M"],
+            "isbn_10": ["1565921933"],
+            "oclc": ["35367714"],
+            "librarything": ["12323"],
+            "goodreads": ["2884206"]
+          },
+          "cover": {
+            "small": "https://covers.openlibrary.org/b/id/805641-S.jpg",
+            "large": "https://covers.openlibrary.org/b/id/805641-L.jpg",
+            "medium": "https://covers.openlibrary.org/b/id/805641-M.jpg"
+          },
+          "subjects": [
+            {
+              "url": "https://openlibrary.org/subjects/javascript_(computer_program_language)",
+              "name": "JavaScript (Computer program language)"
+            },
+            {
+              "url": "https://openlibrary.org/subjects/web_servers",
+              "name": "Web servers"
+            },
+            {
+              "url": "https://openlibrary.org/subjects/object-oriented_programming_(computer_science)",
+              "name": "Object-oriented programming (Computer science)"
+            },
+            {
+              "url": "https://openlibrary.org/subjects/protected_daisy",
+              "name": "Protected DAISY"
+            },
+            {
+              "url": "https://openlibrary.org/subjects/in_library",
+              "name": "In library"
+            }
+          ],
+          "publish_date": "1996",
+          "key": "/books/OL619446M",
+          "authors": [
+            {
+              "url": "https://openlibrary.org/authors/OL183270A/David_Flanagan",
+              "name": "David Flanagan"
+            }
+          ],
+          "classifications": {
+            "dewey_decimal_class": ["005.2/762"],
+            "lc_classifications": ["QA76.73.J38 F555 1996"]
+          },
+          "publish_places": [
+            {
+              "name": "Bonn"
+            },
+            {
+              "name": "Sebastopol, CA"
+            }
+          ],
+          "by_statement": "David Flanagan."
+        }
+      },
+      "items": [
+        {
+          "status": "lendable",
+          "ol-work-id": "OL1643770W",
+          "ol-edition-id": "OL7580887M",
+          "cover": {
+            "small": "https://covers.openlibrary.org/b/id/388463-S.jpg",
+            "large": "https://covers.openlibrary.org/b/id/388463-L.jpg",
+            "medium": "https://covers.openlibrary.org/b/id/388463-M.jpg"
+          },
+          "publishDate": "",
+          "itemURL": "http://openlibrary.org/books/OL7580887M/JavaScript/borrow",
+          "enumcron": false,
+          "contributor": "",
+          "fromRecord": "/books/OL619446M",
+          "match": "similar"
+        }
+      ]
+    },
+    {
+      "records": {
+        "recordURL": "https://openlibrary.org/books/OL10781042M/JavaScript_The_Good_Parts",
+        "oclcs": [],
+        "publishDates": ["May 15, 2008"],
+        "lccns": [],
+        "details": null,
+        "isbns": ["0596517742", "9780596517748"],
+        "olids": ["OL10781042M"],
+        "issns": [],
+        "data": {
+          "publishers": [
+            {
+              "name": "O'Reilly Media, Inc."
+            }
+          ],
+          "number_of_pages": 250,
+          "table_of_contents": [
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "xi",
+              "title": "Preface"
+            },
+            {
+              "level": 0,
+              "label": "1",
+              "pagenum": "1",
+              "title": "Good Parts"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "2",
+              "title": "Why JavaScript?"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "3",
+              "title": "Analyzing JavaScript"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "4",
+              "title": "A Simple Testing Ground"
+            },
+            {
+              "level": 0,
+              "label": "2",
+              "pagenum": "5",
+              "title": "Grammar"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "5",
+              "title": "Whitespace"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "6",
+              "title": "Names"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "7",
+              "title": "Numbers"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "8",
+              "title": "Strings"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "10",
+              "title": "Statements"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "15",
+              "title": "Expressions"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "17",
+              "title": "Literals"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "19",
+              "title": "Functions"
+            },
+            {
+              "level": 0,
+              "label": "3",
+              "pagenum": "20",
+              "title": "Objects"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "20",
+              "title": "Object Literals"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "21",
+              "title": "Retrieval"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "22",
+              "title": "Update"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "22",
+              "title": "Reference"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "22",
+              "title": "Prototype"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "23",
+              "title": "Reflection"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "24",
+              "title": "Enumeration"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "24",
+              "title": "Delete"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "25",
+              "title": "Global Abatement"
+            },
+            {
+              "level": 0,
+              "label": "4",
+              "pagenum": "26",
+              "title": "Function"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "26",
+              "title": "Function Objects"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "27",
+              "title": "Function Literal"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "27",
+              "title": "Invocation"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "31",
+              "title": "Arguments"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "31",
+              "title": "Return"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "32",
+              "title": "Exceptions"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "32",
+              "title": "Augmenting Types"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "34",
+              "title": "Recursion"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "36",
+              "title": "Scope"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "37",
+              "title": "Closure"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "40",
+              "title": "Callbacks"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "40",
+              "title": "Module"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "42",
+              "title": "Cascade"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "43",
+              "title": "Curry"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "44",
+              "title": "Memoization"
+            },
+            {
+              "level": 0,
+              "label": "5",
+              "pagenum": "46",
+              "title": "Inheritance"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "47",
+              "title": "Pseudoclassical"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "50",
+              "title": "Object Specifiers"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "50",
+              "title": "Prototypal"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "52",
+              "title": "Functional"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "55",
+              "title": "Parts"
+            },
+            {
+              "level": 0,
+              "label": "6",
+              "pagenum": "58",
+              "title": "Arrays"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "58",
+              "title": "Array Literals"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "59",
+              "title": "Length"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "60",
+              "title": "Delete"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "60",
+              "title": "Enumeration"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "61",
+              "title": "Confusion"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "61",
+              "title": "Methods"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "63",
+              "title": "Dimensions"
+            },
+            {
+              "level": 0,
+              "label": "7",
+              "pagenum": "65",
+              "title": "Regular Expressions"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "66",
+              "title": "An Example"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "70",
+              "title": "Construction"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "72",
+              "title": "Elements"
+            },
+            {
+              "level": 0,
+              "label": "8",
+              "pagenum": "78",
+              "title": "Methods"
+            },
+            {
+              "level": 0,
+              "label": "9",
+              "pagenum": "94",
+              "title": "Style"
+            },
+            {
+              "level": 0,
+              "label": "10",
+              "pagenum": "98",
+              "title": "Beautiful Features"
+            },
+            {
+              "level": 0,
+              "label": "A",
+              "pagenum": "101",
+              "title": "Awful Parts"
+            },
+            {
+              "level": 0,
+              "label": "B",
+              "pagenum": "109",
+              "title": "Bad Parts"
+            },
+            {
+              "level": 0,
+              "label": "C",
+              "pagenum": "115",
+              "title": "JSLint"
+            },
+            {
+              "level": 0,
+              "label": "D",
+              "pagenum": "125",
+              "title": "Syntax Diagrams"
+            },
+            {
+              "level": 0,
+              "label": "E",
+              "pagenum": "136",
+              "title": "JSON"
+            },
+            {
+              "level": 0,
+              "label": "",
+              "pagenum": "147",
+              "title": "Index"
+            }
+          ],
+          "title": "JavaScript: The Good Parts",
+          "url": "https://openlibrary.org/books/OL10781042M/JavaScript_The_Good_Parts",
+          "identifiers": {
+            "isbn_13": ["9780596517748"],
+            "openlibrary": ["OL10781042M"],
+            "isbn_10": ["0596517742"],
+            "goodreads": ["2998152"]
+          },
+          "cover": {
+            "small": "https://covers.openlibrary.org/b/id/2536428-S.jpg",
+            "large": "https://covers.openlibrary.org/b/id/2536428-L.jpg",
+            "medium": "https://covers.openlibrary.org/b/id/2536428-M.jpg"
+          },
+          "subjects": [
+            {
+              "url": "https://openlibrary.org/subjects/javascript",
+              "name": "javascript"
+            },
+            {
+              "url": "https://openlibrary.org/subjects/web",
+              "name": "web"
+            },
+            {
+              "url": "https://openlibrary.org/subjects/programming",
+              "name": "programming"
+            },
+            {
+              "url": "https://openlibrary.org/subjects/browsers",
+              "name": "browsers"
+            },
+            {
+              "url": "https://openlibrary.org/subjects/javascript_(computer_program_language)",
+              "name": "JavaScript (Computer program language)"
+            }
+          ],
+          "publish_date": "May 15, 2008",
+          "key": "/books/OL10781042M",
+          "authors": [
+            {
+              "url": "https://openlibrary.org/authors/OL3501231A/Douglas_Crockford",
+              "name": "Douglas Crockford"
+            }
+          ],
+          "subtitle": "Working with the Shallow Grain of JavaScript",
+          "excerpts": [
+            {
+              "comment": "",
+              "text": "When I was a young journeyman programmer, I would learn about every feature of the languages I was using, and I would attempt to use all of those features when I wrote.",
+              "first_sentence": true
+            }
+          ],
+          "ebooks": [
+            {
+              "availability": "restricted",
+              "preview_url": "https://archive.org/details/javascriptgoodpa00croc_739",
+              "formats": {}
+            }
+          ]
+        }
+      },
+      "items": []
+    }
+  ]
+}
