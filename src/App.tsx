@@ -8,11 +8,22 @@ type Book = {
   records: {
     data: {
       key: string;
+      url?: string;
+      title: string;
+      subtitle: string;
       cover: {
         small?: string;
       };
+      authors: Author[];
+      publish_date: string;
     };
   };
+};
+
+type Author = {
+  key: string;
+  name?: string;
+  url?: string;
 };
 
 type State = {
@@ -55,7 +66,35 @@ class App extends Component<{}, State> {
           <div>
             {books.map(book => (
               <div key={book.records.data.key}>
-                <img src={book.records.data.cover.small} />
+                <h3>
+                  {book.records.data.title} {book.records.data.subtitle}
+                </h3>
+                <a
+                  href={book.records.data.url}
+                  title={book.records.data.title + book.records.data.subtitle}
+                >
+                  <img
+                    src={book.records.data.cover.small}
+                    alt={book.records.data.title}
+                  />
+                </a>
+                <p>Published: {book.records.data.publish_date}</p>
+                <p>Author details</p>
+                <p>
+                  {book.records.data.authors.map(author => (
+                    <span key={author.name}>{author.name}</span>
+                  ))}
+                </p>
+                <a
+                  href={`${book.records.data.authors.map(
+                    author => author.url
+                  )}`}
+                  target="_blank"
+                >
+                  {book.records.data.authors.map(author => (
+                    <span>{author.name}</span>
+                  ))}
+                </a>
               </div>
             ))}
           </div>
