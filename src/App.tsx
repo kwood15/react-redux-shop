@@ -63,7 +63,7 @@ class App extends Component<{}, State> {
       <div className="app">
         <header />
         <main>
-          <div>
+          <section>
             {books.map(book => (
               <div key={book.records.data.key}>
                 <h3>
@@ -71,7 +71,12 @@ class App extends Component<{}, State> {
                 </h3>
                 <a
                   href={book.records.data.url}
-                  title={book.records.data.title + book.records.data.subtitle}
+                  target="_blank"
+                  title={
+                    book.records.data.subtitle
+                      ? `${book.records.data.title} ${book.records.data.subtitle}`
+                      : book.records.data.title
+                  }
                 >
                   <img
                     src={book.records.data.cover.small}
@@ -90,14 +95,13 @@ class App extends Component<{}, State> {
                     author => author.url
                   )}`}
                   target="_blank"
+                  title="View author details"
                 >
-                  {book.records.data.authors.map(author => (
-                    <span>{author.name}</span>
-                  ))}
+                  View author details >>
                 </a>
               </div>
             ))}
-          </div>
+          </section>
         </main>
         <footer />
       </div>
