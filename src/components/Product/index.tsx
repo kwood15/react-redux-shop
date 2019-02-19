@@ -6,6 +6,8 @@ import ProductItem from './ProductItem';
 
 type Props = {
   books: IBook[];
+  loading: boolean;
+  error: boolean;
   getProducts: () => {};
 };
 
@@ -15,23 +17,24 @@ class ProductList extends Component<Props, {}> {
   }
 
   public render() {
-    const { books } = this.props;
+    const { books, loading } = this.props;
     return (
       <Fragment>
-        {books && books.length > 0 ? (
-          books.map(book => (
-            <ProductItem key={book.records.data.key} book={book} />
-          ))
-        ) : (
-          <p>No products found</p>
-        )}
+        {loading && <p>Loading...</p>}
+        {books && books.length > 0
+          ? books.map(book => (
+              <ProductItem key={book.records.data.key} book={book} />
+            ))
+          : null}
       </Fragment>
     );
   }
 }
 
 const mapStateToProps = (state: any) => ({
-  books: state.books.books
+  books: state.books.books,
+  loading: state.boolean,
+  error: state.boolean
 });
 
 export default connect(

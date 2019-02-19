@@ -7,6 +7,7 @@ const App: FC = () => (
     <header />
     <main>
       <section>
+        <h1>Books</h1>
         <ProductList />
       </section>
     </main>

@@ -20,6 +20,7 @@
     "axios": "^0.18.0",
     "concurrently": "^4.1.0",
     "express": "^4.16.4",
+    "jest-dom": "^3.1.2",
     "node-sass": "^4.11.0",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
