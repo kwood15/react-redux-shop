@@ -12,18 +12,10 @@ type Props = {
 class ProductList extends Component<Props, {}> {
   componentDidMount() {
     this.props.getProducts();
-    console.log('mount', this.props.books);
   }
-
-  // componentDidUpdate(prevProps: Props) {
-  //   if (this.props.books !== prevProps.books) {
-  //     console.log('update', this.props.books);
-  //   }
-  // }
 
   public render() {
     const { books } = this.props;
-    console.log('render', books);
     return (
       <Fragment>
         {books && books.length > 0 ? (
@@ -39,7 +31,7 @@ class ProductList extends Component<Props, {}> {
 }
 
 const mapStateToProps = (state: any) => ({
-  books: state.books
+  books: state.books.books
 });
 
 export default connect(
