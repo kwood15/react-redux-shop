@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { IBook } from '../interfaces';
 import {
   REQUEST_PRODUCTS,
   REQUEST_PRODUCTS_SUCCESS,
@@ -9,22 +10,23 @@ const requestProducts = () => ({
   type: REQUEST_PRODUCTS
 });
 
-const requestProductsSuccess = (payload: any) => ({
+const requestProductsSuccess = (payload: IBook[]) => ({
   type: REQUEST_PRODUCTS_SUCCESS,
   payload
 });
 
-const requestProductsFailure = () => ({
-  type: REQUEST_PRODUCTS_FAILURE
+const requestProductsFailure = (error: boolean) => ({
+  type: REQUEST_PRODUCTS_FAILURE,
+  error
 });
 
 const getProducts = () => (dispatch: any) => {
   dispatch(requestProducts());
   return axios
     .get('api/books')
-    .then(res => res.data)
-    .then(products => dispatch(requestProductsSuccess(products)))
-    .catch(error => dispatch(requestProductsFailure()));
+    .then(response => response.data)
+    .then(books => dispatch(requestProductsSuccess(books)))
+    .catch(error => dispatch(requestProductsFailure(error)));
 };
 
 export { getProducts };

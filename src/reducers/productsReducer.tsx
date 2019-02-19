@@ -1,12 +1,19 @@
+import { IBook } from '../interfaces';
 import {
   REQUEST_PRODUCTS,
   REQUEST_PRODUCTS_SUCCESS,
   REQUEST_PRODUCTS_FAILURE
 } from '../constants/types';
 
-const initialState = {
-  loading: false,
+type State = {
+  books: IBook[];
+  loading: boolean;
+  error: boolean;
+};
+
+const initialState: State = {
   books: [],
+  loading: false,
   error: false
 };
 
