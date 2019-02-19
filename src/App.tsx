@@ -1,7 +1,4 @@
 import React, { FC } from 'react';
-import { connect } from 'react-redux';
-import axios from 'axios';
-// import {  } from '../actions/';
 import ProductList from './components/Product';
 import './scss/main.scss';
 
@@ -18,7 +15,3 @@ const App: FC = () => (
 );
 
 export default App;
-// export default connect(
-//   mapStateToProps,
-//   {  }
-// )(App);

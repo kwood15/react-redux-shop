@@ -1,4 +1,4 @@
-export type Book = {
+export interface IBook {
   records: {
     data: {
       key: string;
@@ -8,14 +8,14 @@ export type Book = {
       cover: {
         small?: string;
       };
-      authors: Author[];
+      authors: IAuthor[];
       publish_date: string;
     };
   };
-};
+}
 
-export type Author = {
+export interface IAuthor {
   key: string;
   name?: string;
   url?: string;
-};
+}

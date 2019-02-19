@@ -4,5 +4,5 @@ import App from './App';
 
 test('renders the component', () => {
   const { getByText } = render(<App />);
-  expect(getByText('View Todos:')).toBeInTheDocument();
+  expect(getByText('')).toBeInTheDocument();
 });

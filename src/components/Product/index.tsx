@@ -1,41 +1,21 @@
 import React, { Component, Fragment } from 'react';
-import axios from 'axios';
+import { connect } from 'react-redux';
+import { getProducts } from '../../actions/';
+import { IBook } from '../../interfaces';
 import ProductItem from './ProductItem';
-import { Book } from './types';
-// import {  } from '../actions/';
 
-type State = {
-  books: Book[];
+type Props = {
+  books: IBook[];
+  getProducts: () => void;
 };
 
-class ProductList extends Component<{}, State> {
-  public readonly state: State = {
-    books: []
-  };
-
+class ProductList extends Component<Props, {}> {
   componentDidMount() {
-    this.saveBooks();
-  }
-
-  public async getBooks() {
-    const response = await axios.get('/api/books');
-    const body = await response.data;
-    if (response.status !== 200) throw new Error(body.message);
-    return body;
-  }
-
-  public saveBooks() {
-    this.getBooks()
-      .then(response => {
-        this.setState({
-          books: response
-        });
-      })
-      .catch(error => console.log(error));
+    this.props.getProducts();
   }
 
   public render() {
-    const { books } = this.state;
+    const { books } = this.props;
     return (
       <Fragment>
         {books.map(book => (
@@ -46,9 +26,11 @@ class ProductList extends Component<{}, State> {
   }
 }
 
-export default ProductList;
+const mapStateToProps = (state: Props) => ({
+  books: state.books
+});
 
-// export default connect(
-//   mapStateToProps,
-//   {  }
-// )(App);
+export default connect(
+  mapStateToProps,
+  { getProducts }
+)(ProductList);

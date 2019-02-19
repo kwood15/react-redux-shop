@@ -1,8 +1,8 @@
 import React, { FC, Fragment } from 'react';
-import { Book } from './types';
+import { IBook } from '../../interfaces';
 
 type Props = {
-  book: Book;
+  book: IBook;
 };
 
 const ProductItem: FC<Props> = ({ book }) => (
