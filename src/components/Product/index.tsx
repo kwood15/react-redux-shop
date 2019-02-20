@@ -17,10 +17,15 @@ class ProductList extends Component<Props, {}> {
   }
 
   public render() {
-    const { books, loading } = this.props;
+    const { books, loading, error } = this.props;
     return (
       <Fragment>
-        {loading && <p>Loading...</p>}
+        {loading && <div data-test-id="loading">Loading...</div>}
+        {error && (
+          <div data-test-id="error">
+            <p>Error...</p>
+          </div>
+        )}
         {books && books.length > 0
           ? books.map(book => (
               <ProductItem key={book.records.data.key} book={book} />

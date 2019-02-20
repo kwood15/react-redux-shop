@@ -8,7 +8,7 @@
     "start": "react-scripts start",
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start\"",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --verbose",
     "eject": "react-scripts eject"
   },
   "dependencies": {
@@ -26,10 +26,16 @@
     "react-dom": "^16.8.2",
     "react-redux": "^6.0.0",
     "react-scripts": "2.1.5",
-    "react-testing-library": "^5.8.0",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "typescript": "^3.3.3"
+  },
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4",
+    "redux-devtools-extension": "^2.13.8",
+    "react-testing-library": "^5.8.0"
   },
   "browserslist": [
     ">0.2%",
@@ -37,11 +43,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "devDependencies": {
-    "tslint": "^5.12.1",
-    "eslint-plugin-prettier": "^3.0.1",
-    "prettier": "^1.16.4",
-    "redux-devtools-extension": "^2.13.8"
-  },
   "proxy": "http://localhost:3001"
 }
