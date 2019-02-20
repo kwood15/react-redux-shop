@@ -9,15 +9,19 @@ import ProductList from '../index';
 
 jest.mock('axios');
 
-test('renders a list of data', async () => {
-  axios.get.mockReturnValue(new Promise(resolve => resolve(books)));
-
-  const { queryByText, getByText } = render(
+const setupComponent = () =>
+  render(
     <Provider store={store}>
       <ProductList />
     </Provider>
   );
 
+test('renders a list of data', async () => {
+  axios.get.mockReturnValue(new Promise(resolve => resolve(books)));
+
+  const { queryByText, getByText } = setupComponent();
+
+  expect(axios.get).toHaveBeenCalledTimes(1);
   await waitForElement(() => getByText('Javascript'));
   expect(queryByText('Javascript')).toBeInTheDocument();
 });
