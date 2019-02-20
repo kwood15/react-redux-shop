@@ -15,7 +15,7 @@ const requestProductsSuccess = (payload: IBook[]) => ({
   payload
 });
 
-const requestProductsFailure = (error: boolean) => ({
+const requestProductsFailure = (error: {}) => ({
   type: REQUEST_PRODUCTS_FAILURE,
   error
 });
@@ -26,7 +26,7 @@ const getProducts = () => (dispatch: any) => {
     .get('api/books')
     .then(response => response.data)
     .then(books => dispatch(requestProductsSuccess(books)))
-    .catch(error => dispatch(requestProductsFailure(error)));
+    .catch(error => console.log(dispatch(requestProductsFailure(error))));
 };
 
 export { getProducts };

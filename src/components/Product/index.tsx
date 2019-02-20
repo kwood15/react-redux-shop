@@ -18,19 +18,31 @@ class ProductList extends Component<Props, {}> {
 
   public render() {
     const { books, loading, error } = this.props;
+    // console.log(this.props);
+    if (error) {
+      return (
+        <div data-testid="error">
+          <p>Failed to load data</p>
+        </div>
+      );
+    }
+
     return (
       <Fragment>
-        {loading && <div data-test-id="loading">Loading...</div>}
-        {error && (
-          <div data-test-id="error">
-            <p>Error...</p>
+        {loading && (
+          <div>
+            <p>Loading...</p>
           </div>
         )}
-        {books && books.length > 0
-          ? books.map(book => (
+
+        <div data-testid="books">
+          {!error && books && books.length === 0 && <p>No results found</p>}
+          {books &&
+            books.length > 0 &&
+            books.map(book => (
               <ProductItem key={book.records.data.key} book={book} />
-            ))
-          : null}
+            ))}
+        </div>
       </Fragment>
     );
   }
@@ -38,8 +50,8 @@ class ProductList extends Component<Props, {}> {
 
 const mapStateToProps = (state: any) => ({
   books: state.books.books,
-  loading: state.boolean,
-  error: state.boolean
+  loading: state.books.loading,
+  error: state.books.error
 });
 
 export default connect(
